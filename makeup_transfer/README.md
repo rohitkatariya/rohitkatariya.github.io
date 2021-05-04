@@ -103,18 +103,18 @@ Here we observe the effect of lighting on both ends of the cheeks where we see t
 
 Destination image; Transferred image 
 
-<img src="data/files_for_md/h.jpg" width=500>  <img src="data/files_for_md/h_combined_layer.jpg" width=500> 
+<img src="data/files_for_md/h.jpg" width=300>  <img src="data/files_for_md/h_combined_layer.jpg" width=300> 
 
-<img src="data/files_for_md/m.jpg" width=500>  <img src="data/files_for_md/m_combined_layer.jpg" width=500> 
+<img src="data/files_for_md/m.jpg" width=300>  <img src="data/files_for_md/m_combined_layer.jpg" width=300> 
 
-<img src="data/files_for_md/eyes.jpg" width=500>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=500> 
-<img src="data/files_for_md/man.jpg" width=500>  <img src="data/files_for_md/man_combined_layer.jpg" width=500> 
+<img src="data/files_for_md/eyes.jpg" width=300>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=300> 
+<img src="data/files_for_md/man.jpg" width=300>  <img src="data/files_for_md/man_combined_layer.jpg" width=300> 
 
 #  X-DOG 
 - In this part we apply xdog with different thresholds to get multiple images. 
 - Once we get this stylized image, we input this into above pipeline to get makeup transfer on this image.  
 
-<img src="data/files_for_md/XDOG_image.jpg" width = 500>  <img src="data/files_for_md/xdog_combined_layer.jpg" width = 500>              
+<img src="data/files_for_md/XDOG_image.jpg" width = 300>  <img src="data/files_for_md/xdog_combined_layer.jpg" width = 300>              
       
 
 # References
