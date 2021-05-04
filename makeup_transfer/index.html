@@ -14307,7 +14307,7 @@ a.anchor-link {
 <li>Compute triangles using cv2.Subdiv2D</li>
 <li>Convert triangle points to landmark indices so that this mesh can be universally used in different images</li>
 </ul>
-<p><img src="data/files_for_md/mesh_image.jpg" width = 300> <img src="data/files_for_md/eg_mesh_image.jpg" width = 300></p>
+<p><img src="data/files_for_md/mesh_image.jpg" width = 200> <img src="data/files_for_md/eg_mesh_image.jpg" width = 200></p>
 </li>
 </ul>
 
@@ -14322,7 +14322,7 @@ a.anchor-link {
 <li>Combining different triangles to get the transformed image.<ul>
 <li>created masks for combining different triangles. Here we faced a lot of issues because a lot of mesh lines were showing up. So we developed an innovative way to mask away the common boundary that was getting added multiple times when it is shared among different triangles.<br>
 Image after Afine Transfer:<br>
-<img src="data/files_for_md/transfered_image.jpg" width = 300>  </li>
+<img src="data/files_for_md/transfered_image.jpg" width = 200>  </li>
 </ul>
 </li>
 </ul>
@@ -14360,7 +14360,7 @@ Image after Afine Transfer:<br>
 </li>
 <li>structure layer is obtained by applying Bilateral filtering<ul>
 <li>Highlight transfer: here we get try getting gradient with laplacian and sobel operators and we try to add it to smoothened structure layer. <figure>
-<img src="data/files_for_md/dest_structure_layer.jpg" width = 300>  
+<img src="data/files_for_md/dest_structure_layer.jpg" width = 200>  
 <figcaption>Structure Layer</figcaption>
 </figure></li>
 </ul>
@@ -14369,7 +14369,7 @@ Image after Afine Transfer:<br>
 <h2 id="Detail-layer">Detail layer<a class="anchor-link" href="#Detail-layer">&#182;</a></h2><ul>
 <li>Detail layer is got by subtracting structure layer from lightness component<ul>
 <li>Skin detail transfer - here we use a weighted sum of detailed layer from both example and the subject image<figure>
-<img src="data/files_for_md/dest_detail_layer.jpg" width = 300>  
+<img src="data/files_for_md/dest_detail_layer.jpg" width = 200>  
 <figcaption>Detail Layer</figcaption>
 </figure></li>
 </ul>
@@ -14378,11 +14378,11 @@ Image after Afine Transfer:<br>
 <h2 id="Color-layer">Color layer<a class="anchor-link" href="#Color-layer">&#182;</a></h2><ul>
 <li>Color layer is the a,b component of LAB layer<ul>
 <li>Color transfer - where we apply alpha blending of color layers.<figure>
-<img src="data/files_for_md/dest_0color_layer.jpg" width = 300>  
+<img src="data/files_for_md/dest_0color_layer.jpg" width = 200>  
 <figcaption>Color Layer</figcaption>
 </figure> 
 <figure>
-<img src="data/files_for_md/dest_1color_layer.jpg" width = 300>  
+<img src="data/files_for_md/dest_1color_layer.jpg" width = 200>  
 <figcaption>Color Layer</figcaption>
 </figure></li>
 </ul>
@@ -14417,9 +14417,9 @@ Image after Afine Transfer:<br>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Lips, color, skin detail transfer:<br>
-<img src="data/files_for_md/combined_layer.jpg" width=300><br>
+<img src="data/files_for_md/combined_layer.jpg" width=200><br>
 Lips, color, skin detail, highlights transfer:<br>
-<img src="data/files_for_md/highlights.jpg" width=300></p>
+<img src="data/files_for_md/highlights.jpg" width=200></p>
 
 </div>
 </div>
@@ -14434,10 +14434,10 @@ Lips, color, skin detail, highlights transfer:<br>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Other-Examples">Other Examples<a class="anchor-link" href="#Other-Examples">&#182;</a></h1><p>Destination image; Transferred image</p>
-<p><img src="data/files_for_md/h.jpg" width=500>  <img src="data/files_for_md/h_combined_layer.jpg" width=500></p>
-<p><img src="data/files_for_md/m.jpg" width=500>  <img src="data/files_for_md/m_combined_layer.jpg" width=500></p>
-<p><img src="data/files_for_md/eyes.jpg" width=500>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=500> 
-<img src="data/files_for_md/man.jpg" width=500>  <img src="data/files_for_md/man_combined_layer.jpg" width=500></p>
+<p><img src="data/files_for_md/h.jpg" width=200>  <img src="data/files_for_md/h_combined_layer.jpg" width=200></p>
+<p><img src="data/files_for_md/m.jpg" width=200>  <img src="data/files_for_md/m_combined_layer.jpg" width=200></p>
+<p><img src="data/files_for_md/eyes.jpg" width=200>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=200></p>
+<p><img src="data/files_for_md/man.jpg" width=200>  <img src="data/files_for_md/man_combined_layer.jpg" width=200></p>
 
 </div>
 </div>
@@ -14447,7 +14447,7 @@ Lips, color, skin detail, highlights transfer:<br>
 <li>In this part we apply xdog with different thresholds to get multiple images. </li>
 <li>Once we get this stylized image, we input this into above pipeline to get makeup transfer on this image.  </li>
 </ul>
-<p><img src="data/files_for_md/XDOG_image.jpg" width = 500>  <img src="data/files_for_md/xdog_combined_layer.jpg" width = 500></p>
+<p><img src="data/files_for_md/XDOG_image.jpg" width = 200>  <img src="data/files_for_md/xdog_combined_layer.jpg" width = 200></p>
 
 </div>
 </div>
@@ -14459,20 +14459,6 @@ Lips, color, skin detail, highlights transfer:<br>
 </ul>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
