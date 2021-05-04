@@ -103,12 +103,12 @@ Here we observe the effect of lighting on both ends of the cheeks where we see t
 
 Destination image; Transferred image 
 
-<img src="data/files_for_md/h.jpg" width=200>  <img src="data/files_for_md/h_combined_layer.jpg" width=200> 
+<img src="data/files_for_md/h.jpg" width=200>  <img src="data/files_for_md/h_combined_layer.jpg" width=200> <br>
 
-<img src="data/files_for_md/m.jpg" width=200>  <img src="data/files_for_md/m_combined_layer.jpg" width=200> 
+<img src="data/files_for_md/m.jpg" width=200>  <img src="data/files_for_md/m_combined_layer.jpg" width=200> <br>
 
-<img src="data/files_for_md/eyes.jpg" width=200>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=200> 
-<img src="data/files_for_md/man.jpg" width=200>  <img src="data/files_for_md/man_combined_layer.jpg" width=200> 
+<img src="data/files_for_md/eyes.jpg" width=200>  <img src="data/files_for_md/eyes_combined_layer.jpg" width=200><br> 
+<img src="data/files_for_md/man.jpg" width=200>  <img src="data/files_for_md/man_combined_layer.jpg" width=200> <br>
 
 #  X-DOG 
 - In this part we apply xdog with different thresholds to get multiple images. 
