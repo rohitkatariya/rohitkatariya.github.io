@@ -114,7 +114,7 @@ Destination image; Transferred image
 - In this part we apply xdog with different thresholds to get multiple images. 
 - Once we get this stylized image, we input this into above pipeline to get makeup transfer on this image.  
 
-<img src="data/files_for_md/xdog_combined_layer.jpg" width = 600>              
+<img src="data/files_for_md/XDOG_image.jpg" width = 500>  <img src="data/files_for_md/xdog_combined_layer.jpg" width = 500>              
       
 
 # References
